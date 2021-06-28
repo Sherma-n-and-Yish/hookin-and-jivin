@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-
+    height: 100%;
+    width: 100%;
 }
+
 
 .top{
     height: 80px;
@@ -12,7 +19,10 @@
 .nav {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
+
+
 
 .logo {
     position: absolute;
