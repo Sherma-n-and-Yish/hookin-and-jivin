@@ -5,15 +5,19 @@
 
 }
 
-.logo{
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-
+.top{
+    height: 80px;
+    background-color: #f0f0f0;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
 }
 
-.caption{
-    display: block;
+.logo {
+    position: absolute;
+    z-index: 1000;
+    justify-content: center;
 }
 
 li {
@@ -97,5 +101,8 @@ a, p {
     vertical-align: middle;
     border-radius: 50% ;
     font-family: 'Anton', sans-serif;
-    font-size: large;
+    font-size: medium;
+    width: 18px;
+    height: 18px;
 }
+
