@@ -23,11 +23,13 @@ li {
 .mainTitle {
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 
 .subTitle {
     display: flex;
     justify-content: center;
+    margin: 5px;
 }
 
 .col-6:nth-child(1) {
@@ -44,12 +46,27 @@ li {
 }
 
 .circleRow > .col-6 {
-    line-height: 50px;
+    line-height: 150px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50% ;
     font-family: 'Anton', sans-serif;
-    font-size: xx-small;
-    border: white solid 8px;
+    border: white solid 10px;
     color: white;
+    font-size: xx-large;
 }
+
+.circleRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+h1, h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+a, p {
+    font-family: 'Abel', sans-serif;
+}
+
