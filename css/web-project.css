@@ -22,7 +22,14 @@
     width: 100%;
 }
 
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.project {
+    background-color: #f0f0f0;
+}
 
 .logo {
     position: absolute;
@@ -53,20 +60,22 @@ li {
     margin: 5px;
 }
 
-
-
-.col-6,.col-sm-3:nth-child(1) {
+.red {
     background-color: #e6563b;
 }
-.col-6,.col-sm-3:nth-child(2) {
+
+.yellow {
     background-color: #EB9D3A;
 }
-.col-6,.col-sm-3:nth-child(3) {
-    background-color: #7cb06c;
+
+.green {
+    background-color: #7cb06c ;
 }
-.col-6,.col-sm-3:nth-child(4) {
-    background-color: #00aba9;
+
+.blue {
+    background-color: #00aba9
 }
+
 
 .circleRow > .col-6, .col-sm-3 {
     line-height: 150px;
@@ -115,7 +124,6 @@ a, p {
 }
 
 .menu {
-    line-height: 10px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50% ;
