@@ -113,12 +113,12 @@ a, p {
 }
 
 .menu {
-    line-height: 30px;
+    line-height: 10px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50% ;
     font-family: 'Anton', sans-serif;
-    font-size: medium;
+    font-size: small;
     width: 18px;
     height: 18px;
 }
