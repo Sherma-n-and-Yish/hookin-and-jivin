@@ -145,5 +145,9 @@ a, p {
         display: flex;
         justify-content: center;
     }
+    .project1 {
+        display: flex;
+        align-content: space-between;
+    }
 
 }
