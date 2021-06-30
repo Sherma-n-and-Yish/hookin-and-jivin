@@ -55,6 +55,7 @@ li {
     flex-grow: 1;
     font-size: 48px;
     font-family: 'Anton', sans-serif;
+    margin-bottom: 10px;
 }
 
 .subTitle {
@@ -184,7 +185,7 @@ a, p {
 
 @media only screen and (min-width: 1024px) {
     .circleRow > .col-6, .col-sm-3 {
-        line-height: 210px;
+        line-height: 250px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50% ;
@@ -193,4 +194,6 @@ a, p {
         color: white;
         font-size: xx-large;
     }
+
+
 }
