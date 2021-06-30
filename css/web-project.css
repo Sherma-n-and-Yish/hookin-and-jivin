@@ -46,10 +46,13 @@ li {
     display: flex;
     justify-content: center;
 }
-
+.selected {
+    font-family: 'Abel', sans-serif;
+    font-size: 32px;
+}
 .mainTitle > p {
     display: flex;
-    justify-items: center;
+    flex-grow: 1;
     font-size: 48px;
     font-family: 'Anton', sans-serif;
 }
@@ -92,6 +95,11 @@ li {
     display: flex;
     justify-content: space-between;
     margin: 5px;
+}
+
+.main-nav-bar {
+    display: flex;
+    flex-direction: row;
 }
 
 h1, h3 {
@@ -171,4 +179,18 @@ a, p {
         align-content: space-between;
     }
 
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .circleRow > .col-6, .col-sm-3 {
+        line-height: 210px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50% ;
+        font-family: 'Anton', sans-serif;
+        border: white solid 10px;
+        color: white;
+        font-size: xx-large;
+    }
 }
