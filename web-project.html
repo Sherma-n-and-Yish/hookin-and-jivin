@@ -20,34 +20,28 @@
 <body>
 <div class="container-fluid">
     <div class="row top"></div>
-    <div class="d-block d-sm-none row mt-4">
-        <nav class="col navbar navbar-expand-lg nav-bar-links">
-            <nav class="navbar navbar-light bg-light image-nav">
-                <a class="navbar-brand" href="#">
+    <nav id="main-nav">
+        <div class="d-block d-sm-block d-md-none" id="logo-small">
+            <ul class="nav-links" id="small-nav">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="d-none d-md-block" id="logo-med">
+            <ul class="nav-links" id="med-nav">
+                <li id="logo">
                     <img src="assets/logo.png" width="105px" height="105px" alt="logo">
-                </a>
-            </nav>
-        </nav>
-    </div>
-    <div class="d-block d-sm-none row">
-        <div class="col">
-            <p>Codeup Design</p>
+                    <a href="#">Codeup Design</a>
+                </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-        <div class=" d-flex navbar-nav main-nav-bar">
-            <div class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Services</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </div>
-        </div>
-    </div>
+    </nav>
     <div class="row mainTitle m-0 p-0">
         <p>Visual Design & Web Development</p>
     </div>
@@ -185,96 +179,32 @@
 </body>
 </html>
 
-<!--<div class="row">-->
-<!--    <div class="col selectWork">-->
-<!--        <p>Selected Work</p>-->
-<!--    </div>-->
+<!--<<div class="d-block d-sm-none row mt-4">-->
+<!--    <nav class="col navbar navbar-expand-lg nav-bar-links">-->
+<!--        <nav class="navbar navbar-light bg-light image-nav">-->
+<!--            <a class="navbar-brand" href="#">-->
+<!--                <img src="assets/logo.png" width="105px" height="105px" alt="logo">-->
+<!--            </a>-->
+<!--        </nav>-->
+<!--    </nav>-->
 <!--</div>-->
-
-<!--<div class="row">-->
-<!--    <div class="col-sm-6">-->
-<!--        <div class="row-cols-sm-6">-->
-<!--            <div class="col appleImage">-->
-<!--                <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" height="100%" width="100%">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row fp">-->
-<!--            <div class="col">-->
-<!--                <p>Featured Project</p>-->
-<!--            </div>-->
-<!--            <div class="col">-->
-<!--                <ul>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">S</li>-->
-<!--                    <li class="menu">H</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
+<!--<div class="d-block d-sm-none row">-->
+<!--    <div class="col">-->
+<!--        <p>Codeup Design</p>-->
 <!--    </div>-->
-<!--    <div class="row-cols-sm-6 d-none d-sm-block">-->
-<!--        <div class="row">-->
-<!--            <div class="col appleImage">-->
-<!--                <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" height="100%" width="100%">-->
-<!--            </div>-->
+<!--    <div class=" d-flex navbar-nav main-nav-bar">-->
+<!--        <div class="nav-item">-->
+<!--            <a class="nav-link active" aria-current="page" href="#">Services</a>-->
 <!--        </div>-->
-<!--        <div class="row fp">-->
-<!--            <div class="col">-->
-<!--                <p>Featured Project</p>-->
-<!--            </div>-->
-<!--            <div class="col">-->
-<!--                <ul>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">S</li>-->
-<!--                    <li class="menu">H</li>-->
-<!--                </ul>-->
-<!--            </div>-->
+<!--        <div class="nav-item">-->
+<!--            <a class="nav-link" href="#">Work</a>-->
+<!--        </div>-->
+<!--        <div class="nav-item">-->
+<!--            <a class="nav-link" href="#">Blog</a>-->
+<!--        </div>-->
+<!--        <div class="nav-item">-->
+<!--            <a class="nav-link" href="#">Contact</a>-->
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-<!--<div class="col-sm-6">-->
-<!--    <div class="row-cols-sm-6 d-none d-sm-block">-->
-<!--        <div class="row">-->
-<!--            <div class="col appleImage">-->
-<!--                <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" height="100%" width="100%">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row fp">-->
-<!--            <div class="col">-->
-<!--                <p>Featured Project</p>-->
-<!--            </div>-->
-<!--            <div class="col">-->
-<!--                <ul>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">S</li>-->
-<!--                    <li class="menu">H</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="row-cols-sm-6 d-none d-sm-block">-->
-<!--        <div class="row">-->
-<!--            <div class="col appleImage">-->
-<!--                <img src="assets/images/apple-ipad.jpg" alt="apple-ipad" height="100%" width="100%">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row fp">-->
-<!--            <div class="col">-->
-<!--                <p>Featured Project</p>-->
-<!--            </div>-->
-<!--            <div class="col">-->
-<!--                <ul>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">D</li>-->
-<!--                    <li class="menu">S</li>-->
-<!--                    <li class="menu">H</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-
 
